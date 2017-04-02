@@ -1,4 +1,6 @@
-body {}
+body {background: url("folks.jpg");
+background-size: cover;
+}
 
  button,
     div,
@@ -7,30 +9,67 @@ body {}
 
     button {color: skyblue;
     	background-color: black;
-    	border-color: black;}
+    	border-color: black;
+        font-weight: bold;
+    }
 
-    	button.hover {
+    	button:hover {
     		background-color: blue;
+            border:blue;
     	}
 
 
  h1 {
  	text-align: center;
- 	color: white
+ 	color: skyblue;
  	background color: black;
  	font-family: "Georgia";
+    background: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    max-width:800px;
+    margin-left:120px;
+
  }
 
 .item {
-	float:right;
+	float:left;
 	text-align: center;
+    color: blue;
 
 
 }
 
 #cartoon-form{
-	float:right;
-	margin-top: 80px;
+	float:left;
+    text-align: center;
 	margin-right:-30px;
 
+}
+
+#input {    width: 200px;
+    float: right;
+background:none;
+border:none;}
+
+#add-cartoon {
+  background: black;
+  border:black;
+  color:skyblue;
+  font-weight: bold;
+}
+
+#add-cartoon:hover { background: blue; 
+        border:blue;}
+
+#cartoon-input {
+    color:blue;
+}
+
+p {color:white;
+font-weight:bold;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+#array {
+    background:none;
+    border:none;
 }
