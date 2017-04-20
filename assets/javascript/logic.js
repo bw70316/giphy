@@ -124,7 +124,7 @@ $(".cartoon").on("click", function() {
 
 console.log(response); // i'm leaving this in here because it is what I used to find the images url for still and active
 
-    
+    renderButtons();
 
 });
 
